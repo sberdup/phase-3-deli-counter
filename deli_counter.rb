@@ -17,6 +17,6 @@ def take_a_number(line, name)
 end
 
 def now_serving(line)
-    return puts 'There is nobody waiting to be served!' if array.empty?
+    return puts 'There is nobody waiting to be served!' if line.empty?
     puts "Currently serving #{line.shift}."
 end
